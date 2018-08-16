@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
     <NavLinks>
       <NavLink to='/'>Home</NavLink>
       <NavLink to='/about'>Me</NavLink>
-      <NavLink to='/projects'>Projects</NavLink>
+      <NavLink to='/portfolio'>Projects</NavLink>
       <NavLink to='/blog'>Blog</NavLink>
       <NavIcons>
         <ExternalLink href='mailto:wtpwinberg@gmail.com' target='_top'>

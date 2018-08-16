@@ -1,11 +1,14 @@
 import React from 'react';
-import Link from 'gatsby-link';
+
+import {
+  BodyContainer,
+} from './styles';
 
 const AboutPage = () => (
-  <div>
+  <BodyContainer>
     <h1>About Me:</h1>
     <p>Sup! I'm p cool</p>
-  </div>
+  </BodyContainer>
 );
 
 export default AboutPage;

@@ -13,7 +13,8 @@ exports.components = {
   "component---src-pages-about-js": preferDefault(require("/Users/williamwinberg/Desktop/portfolio/src/pages/about.js")),
   "component---src-pages-blog-js": preferDefault(require("/Users/williamwinberg/Desktop/portfolio/src/pages/blog.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/williamwinberg/Desktop/portfolio/src/pages/index.js")),
-  "component---src-pages-page-2-js": preferDefault(require("/Users/williamwinberg/Desktop/portfolio/src/pages/page-2.js"))
+  "component---src-pages-portfolio-js": preferDefault(require("/Users/williamwinberg/Desktop/portfolio/src/pages/portfolio.js")),
+  "component---src-pages-styles-index-js": preferDefault(require("/Users/williamwinberg/Desktop/portfolio/src/pages/styles/index.js"))
 }
 
 exports.json = {
@@ -26,6 +27,7 @@ exports.json = {
   "about.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/about.json"),
   "blog.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/blog.json"),
   "index.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/index.json"),
-  "page-2.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/page-2.json"),
-  "404-html.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/404-html.json")
+  "404-html.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/404-html.json"),
+  "portfolio.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/portfolio.json"),
+  "styles.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/styles.json")
 }
