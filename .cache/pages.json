@@ -3,15 +3,22 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "post-one.json",
-        "path": "/post-one"
+        "jsonName": "post-two.json",
+        "path": "/post-two"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "post-two.json",
-        "path": "/post-two"
+        "jsonName": "post-three.json",
+        "path": "/post-three"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "post-one.json",
+        "path": "/post-one"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
@@ -61,12 +68,5 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404-html.json",
         "path": "/404.html"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "post-three.json",
-        "path": "/post-three"
     }
 ]

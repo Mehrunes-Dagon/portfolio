@@ -1,20 +1,25 @@
 import React from 'react';
-import Link from 'gatsby-link';
+
+import {
+  NavContainer,
+  NavLogo,
+  NavIcons,
+  NavLinks,
+  NavLink,
+} from './styles';
 
 const Header = ({ siteTitle }) => (
-  <div>
-    <ul style={{ display: 'flex', flexDirection: 'spaceAround' }}>
-      <li>
-        <Link to='/'>Home</Link>
-      </li>
-      <li>
-        <Link to='/projects'>Projects</Link>
-      </li>
-      <li>
-        <Link to='/blog'>Blog</Link>
-      </li>
-    </ul>
-  </div>
+  <NavContainer>
+    <NavLogo>WW</NavLogo>
+    <NavLinks>
+      <NavLink to='/'>Home</NavLink>
+      <NavLink to='/projects'>Projects</NavLink>
+      <NavLink to='/blog'>Blog</NavLink>
+    </NavLinks>
+    <NavIcons>
+      <img src='../images/mail.png' />
+    </NavIcons>
+  </NavContainer>
 );
 
 export default Header;

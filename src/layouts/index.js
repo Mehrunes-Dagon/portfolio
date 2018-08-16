@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import Header from '../components/header';
 import Nav from '../components/nav';
 import './index.css';
 
@@ -15,7 +14,6 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'winberg, william, developer, react, gatsby, blog' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
     <Nav />
     {children()}
   </div>
