@@ -1,12 +1,15 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import { BodyContainer } from './styles';
+import {
+  BodyContainer,
+  LandingPic,
+} from './styles';
 
 const IndexPage = () => (
   <BodyContainer>
     <h1>Welcome to my site</h1>
-    <p>My portfolio site</p>
+    <LandingPic />
   </BodyContainer>
 );
 

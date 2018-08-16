@@ -1076,7 +1076,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5aba700b8f149406a2ece6f9f3ed7ea4",
+        "contentDigest": "45cd312c7096764b8b033485768c79dc",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/index.js\"",
@@ -1086,11 +1086,11 @@
       "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 257,
-      "prettySize": "257 B",
-      "modifiedTime": "2018-08-16T22:24:15.718Z",
-      "accessTime": "2018-08-16T22:24:15.718Z",
-      "changeTime": "2018-08-16T22:24:15.718Z",
+      "size": 264,
+      "prettySize": "264 B",
+      "modifiedTime": "2018-08-16T23:32:22.433Z",
+      "accessTime": "2018-08-16T23:32:22.730Z",
+      "changeTime": "2018-08-16T23:32:22.433Z",
       "birthTime": "2018-08-14T01:18:00.978Z",
       "root": "/",
       "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages",
@@ -1107,13 +1107,13 @@
       "blksize": 4194304,
       "ino": 8609024825,
       "blocks": 8,
-      "atimeMs": 1534458255717.6504,
-      "mtimeMs": 1534458255717.9407,
-      "ctimeMs": 1534458255717.9407,
+      "atimeMs": 1534462342730.1172,
+      "mtimeMs": 1534462342433.0234,
+      "ctimeMs": 1534462342433.0234,
       "birthtimeMs": 1534209480977.9297,
-      "atime": "2018-08-16T22:24:15.718Z",
-      "mtime": "2018-08-16T22:24:15.718Z",
-      "ctime": "2018-08-16T22:24:15.718Z",
+      "atime": "2018-08-16T23:32:22.730Z",
+      "mtime": "2018-08-16T23:32:22.433Z",
+      "ctime": "2018-08-16T23:32:22.433Z",
       "birthtime": "2018-08-14T01:18:00.978Z"
     },
     "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file": {
@@ -1339,7 +1339,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c3ef9b259d34b82a202ceba907735634",
+        "contentDigest": "790747b723e41f93359dcf8b126df241",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1360,7 +1360,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "225ef16b7f4df82d9c33eda99a275f38",
+        "contentDigest": "35afc8f8ee942b86cb917181c8467413",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1381,7 +1381,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7d44341a0221050e6a41977c3ea2f892",
+        "contentDigest": "23c1590dbb259c1f2b1288c6613731c5",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1627,7 +1627,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d9aa05a563b115b289ad68aa36a4df39",
+        "contentDigest": "2de5da679604032c3f246732b4a9bb27",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/styles/index.js\"",
@@ -1637,11 +1637,11 @@
       "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/styles/index.js",
       "relativePath": "styles/index.js",
       "extension": "js",
-      "size": 359,
-      "prettySize": "359 B",
-      "modifiedTime": "2018-08-16T22:22:52.709Z",
-      "accessTime": "2018-08-16T22:22:52.709Z",
-      "changeTime": "2018-08-16T22:22:52.709Z",
+      "size": 540,
+      "prettySize": "540 B",
+      "modifiedTime": "2018-08-16T23:40:40.770Z",
+      "accessTime": "2018-08-16T23:40:41.063Z",
+      "changeTime": "2018-08-16T23:40:40.770Z",
       "birthTime": "2018-08-16T22:18:23.862Z",
       "root": "/",
       "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages/styles",
@@ -1658,13 +1658,13 @@
       "blksize": 4194304,
       "ino": 8609286884,
       "blocks": 8,
-      "atimeMs": 1534458172708.9753,
-      "mtimeMs": 1534458172709.4712,
-      "ctimeMs": 1534458172709.4712,
+      "atimeMs": 1534462841062.8147,
+      "mtimeMs": 1534462840770.1292,
+      "ctimeMs": 1534462840770.1292,
       "birthtimeMs": 1534457903861.5974,
-      "atime": "2018-08-16T22:22:52.709Z",
-      "mtime": "2018-08-16T22:22:52.709Z",
-      "ctime": "2018-08-16T22:22:52.709Z",
+      "atime": "2018-08-16T23:40:41.063Z",
+      "mtime": "2018-08-16T23:40:40.770Z",
+      "ctime": "2018-08-16T23:40:40.770Z",
       "birthtime": "2018-08-16T22:18:23.862Z"
     }
   },

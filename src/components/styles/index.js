@@ -32,7 +32,7 @@ export const NavLinks = styled.div`
 export const NavLink = styled(Link)`
   font-size: 1.4em;
   color: white;
-  margin: 0 .5em;
+  margin: 0 .4em;
   text-decoration: none;
   &:hover {
     text-decoration: none;
