@@ -3,9 +3,11 @@ import React from 'react';
 import {
   NavContainer,
   NavLogo,
-  NavIcons,
   NavLinks,
   NavLink,
+  ExternalLink,
+  NavIcons,
+  Icon,
 } from './styles';
 
 const Header = ({ siteTitle }) => (
@@ -13,12 +15,24 @@ const Header = ({ siteTitle }) => (
     <NavLogo>WW</NavLogo>
     <NavLinks>
       <NavLink to='/'>Home</NavLink>
+      <NavLink to='/about'>Me</NavLink>
       <NavLink to='/projects'>Projects</NavLink>
       <NavLink to='/blog'>Blog</NavLink>
+      <NavIcons>
+        <ExternalLink href='mailto:wtpwinberg@gmail.com' target='_top'>
+          <Icon src='./images/mail.png' />
+        </ExternalLink>
+        <ExternalLink href='https://github.com/Mehrunes-Dagon'>
+          <Icon src='./images/github.png' />
+        </ExternalLink>
+        <ExternalLink href='https://www.linkedin.com/in/william-winberg/'>
+          <Icon src='./images/linkedin.png' />
+        </ExternalLink>
+        <ExternalLink href='https://www.facebook.com/william.winberg.3'>
+          <Icon src='./images/facebook.png' />
+        </ExternalLink>
+      </NavIcons>
     </NavLinks>
-    <NavIcons>
-      <img src='../images/mail.png' />
-    </NavIcons>
   </NavContainer>
 );
 
