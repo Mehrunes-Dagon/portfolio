@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
 const Header = ({ siteTitle }) => (
   <div
@@ -26,8 +26,19 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/"
+          style={{
+            color: 'blue',
+            textDecoration: 'none',
+          }}
+        >
+          {siteTitle}
+        </Link>
+      </h1>
     </div>
   </div>
-)
+);
 
-export default Header
+export default Header;
