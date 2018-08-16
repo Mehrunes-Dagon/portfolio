@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ac53523e4e3cb1a16f04388f54ba39b4",
+        "contentDigest": "aa45c555245ae8833a795c954dea6d0f",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -585,11 +585,13 @@
       "resolve": "/Users/williamwinberg/Desktop/portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "2d3788c395badffb5a8111d683d84d06",
+      "version": "b4bbd87eaf1be269bea83781a182e10a",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/williamwinberg/Desktop/portfolio",
@@ -649,7 +651,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5fbd8a7f75292f7f141d637455ef385c",
+        "contentDigest": "ad8461b43be321129b159b89a741883c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -744,12 +746,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-16T04:17:16.607Z",
+      "buildTime": "2018-08-16T05:00:22.910Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f585f828be0590ad120687740fbfd21b",
+        "contentDigest": "3a6206854470d50ef92305247755ddba",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -759,7 +761,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ebf4985f925ed10924bc100e7168f09f",
+        "contentDigest": "9df271fbba0b8d09c85801f9ad0673b3",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -768,11 +770,11 @@
       "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 256,
-      "prettySize": "256 B",
-      "modifiedTime": "2018-08-16T03:48:42.558Z",
-      "accessTime": "2018-08-16T04:17:18.109Z",
-      "changeTime": "2018-08-16T03:48:42.558Z",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2018-08-16T04:26:35.505Z",
+      "accessTime": "2018-08-16T05:00:24.387Z",
+      "changeTime": "2018-08-16T04:26:35.505Z",
       "birthTime": "2018-08-14T01:18:00.978Z",
       "root": "/",
       "dir": "/Users/williamwinberg/Desktop/portfolio/src",
@@ -782,20 +784,20 @@
       "relativeDirectory": "..",
       "dev": 16777222,
       "mode": 16877,
-      "nlink": 8,
+      "nlink": 9,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8609024823,
       "blocks": 0,
-      "atimeMs": 1534393038109.4575,
-      "mtimeMs": 1534391322557.7832,
-      "ctimeMs": 1534391322557.7832,
+      "atimeMs": 1534395624386.6282,
+      "mtimeMs": 1534393595504.8223,
+      "ctimeMs": 1534393595504.8223,
       "birthtimeMs": 1534209480977.696,
-      "atime": "2018-08-16T04:17:18.109Z",
-      "mtime": "2018-08-16T03:48:42.558Z",
-      "ctime": "2018-08-16T03:48:42.558Z",
+      "atime": "2018-08-16T05:00:24.387Z",
+      "mtime": "2018-08-16T04:26:35.505Z",
+      "ctime": "2018-08-16T04:26:35.505Z",
       "birthtime": "2018-08-14T01:18:00.978Z"
     },
     "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-15-post-one absPath of file": {
@@ -803,7 +805,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7d3af4319121a4f9a7876848f17ce3a5",
+        "contentDigest": "48475145fc6f8f4b39e5bb6ef0bb46dc",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-08-15-post-one\"",
         "owner": "gatsby-source-filesystem"
@@ -815,7 +817,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-16T03:25:09.531Z",
-      "accessTime": "2018-08-16T04:17:18.112Z",
+      "accessTime": "2018-08-16T05:00:24.389Z",
       "changeTime": "2018-08-16T03:25:09.531Z",
       "birthTime": "2018-08-16T03:23:32.368Z",
       "root": "/",
@@ -833,11 +835,11 @@
       "blksize": 4194304,
       "ino": 8609252060,
       "blocks": 0,
-      "atimeMs": 1534393038111.5093,
+      "atimeMs": 1534395624389.1382,
       "mtimeMs": 1534389909531.4846,
       "ctimeMs": 1534389909531.4846,
       "birthtimeMs": 1534389812368.175,
-      "atime": "2018-08-16T04:17:18.112Z",
+      "atime": "2018-08-16T05:00:24.389Z",
       "mtime": "2018-08-16T03:25:09.531Z",
       "ctime": "2018-08-16T03:25:09.531Z",
       "birthtime": "2018-08-16T03:23:32.368Z"
@@ -847,7 +849,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8dd778485bde29179d58f83dc3467a3e",
+        "contentDigest": "44c615a2093ceab9a7cc1f4a9dae7e94",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-08-16-post-two\"",
         "owner": "gatsby-source-filesystem"
@@ -859,7 +861,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-16T03:27:26.328Z",
-      "accessTime": "2018-08-16T04:17:18.112Z",
+      "accessTime": "2018-08-16T05:00:24.389Z",
       "changeTime": "2018-08-16T03:27:26.328Z",
       "birthTime": "2018-08-16T03:27:18.146Z",
       "root": "/",
@@ -877,41 +879,41 @@
       "blksize": 4194304,
       "ino": 8609252095,
       "blocks": 0,
-      "atimeMs": 1534393038111.5022,
+      "atimeMs": 1534395624389.1382,
       "mtimeMs": 1534390046328.3376,
       "ctimeMs": 1534390046328.3376,
       "birthtimeMs": 1534390038146.216,
-      "atime": "2018-08-16T04:17:18.112Z",
+      "atime": "2018-08-16T05:00:24.389Z",
       "mtime": "2018-08-16T03:27:26.328Z",
       "ctime": "2018-08-16T03:27:26.328Z",
       "birthtime": "2018-08-16T03:27:18.146Z"
     },
-    "/Users/williamwinberg/Desktop/portfolio/src/pages/blog.js absPath of file": {
-      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/blog.js absPath of file",
+    "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js absPath of file": {
+      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9b485fbf222ec67eec258fa60bce716b",
+        "contentDigest": "ed5aaa113e6e92e4abd4e68238342939",
         "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/pages/blog.js\"",
+        "description": "File \"src/pages/about.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/blog.js",
-      "relativePath": "blog.js",
+      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js",
+      "relativePath": "about.js",
       "extension": "js",
-      "size": 790,
-      "prettySize": "790 B",
-      "modifiedTime": "2018-08-16T04:11:01.221Z",
-      "accessTime": "2018-08-16T04:17:18.110Z",
-      "changeTime": "2018-08-16T04:11:01.221Z",
-      "birthTime": "2018-08-16T03:48:42.558Z",
+      "size": 183,
+      "prettySize": "183 B",
+      "modifiedTime": "2018-08-16T04:28:07.490Z",
+      "accessTime": "2018-08-16T04:57:07.276Z",
+      "changeTime": "2018-08-16T04:28:07.490Z",
+      "birthTime": "2018-08-16T04:26:35.505Z",
       "root": "/",
       "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages",
-      "base": "blog.js",
+      "base": "about.js",
       "ext": ".js",
-      "name": "blog",
+      "name": "about",
       "relativeDirectory": "",
       "dev": 16777222,
       "mode": 33188,
@@ -920,16 +922,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8609256090,
+      "ino": 8609257016,
       "blocks": 8,
-      "atimeMs": 1534393038109.677,
-      "mtimeMs": 1534392661220.766,
-      "ctimeMs": 1534392661220.766,
-      "birthtimeMs": 1534391322557.771,
-      "atime": "2018-08-16T04:17:18.110Z",
-      "mtime": "2018-08-16T04:11:01.221Z",
-      "ctime": "2018-08-16T04:11:01.221Z",
-      "birthtime": "2018-08-16T03:48:42.558Z"
+      "atimeMs": 1534395427276.1055,
+      "mtimeMs": 1534393687490.134,
+      "ctimeMs": 1534393687490.134,
+      "birthtimeMs": 1534393595504.8088,
+      "atime": "2018-08-16T04:57:07.276Z",
+      "mtime": "2018-08-16T04:28:07.490Z",
+      "ctime": "2018-08-16T04:28:07.490Z",
+      "birthtime": "2018-08-16T04:26:35.505Z"
     },
     "/Users/williamwinberg/Desktop/portfolio/src/pages/404.js absPath of file": {
       "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/404.js absPath of file",
@@ -949,7 +951,7 @@
       "size": 198,
       "prettySize": "198 B",
       "modifiedTime": "2018-08-14T01:18:00.978Z",
-      "accessTime": "2018-08-16T04:12:26.551Z",
+      "accessTime": "2018-08-16T04:57:07.276Z",
       "changeTime": "2018-08-14T01:18:00.978Z",
       "birthTime": "2018-08-14T01:18:00.978Z",
       "root": "/",
@@ -967,14 +969,59 @@
       "blksize": 4194304,
       "ino": 8609024824,
       "blocks": 8,
-      "atimeMs": 1534392746551.087,
+      "atimeMs": 1534395427276.1008,
       "mtimeMs": 1534209480977.8303,
       "ctimeMs": 1534209480977.8303,
       "birthtimeMs": 1534209480977.7622,
-      "atime": "2018-08-16T04:12:26.551Z",
+      "atime": "2018-08-16T04:57:07.276Z",
       "mtime": "2018-08-14T01:18:00.978Z",
       "ctime": "2018-08-14T01:18:00.978Z",
       "birthtime": "2018-08-14T01:18:00.978Z"
+    },
+    "/Users/williamwinberg/Desktop/portfolio/src/pages/blog.js absPath of file": {
+      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/blog.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9b485fbf222ec67eec258fa60bce716b",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/blog.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/blog.js",
+      "relativePath": "blog.js",
+      "extension": "js",
+      "size": 790,
+      "prettySize": "790 B",
+      "modifiedTime": "2018-08-16T04:11:01.221Z",
+      "accessTime": "2018-08-16T04:57:07.276Z",
+      "changeTime": "2018-08-16T04:11:01.221Z",
+      "birthTime": "2018-08-16T03:48:42.558Z",
+      "root": "/",
+      "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages",
+      "base": "blog.js",
+      "ext": ".js",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8609256090,
+      "blocks": 8,
+      "atimeMs": 1534395427276.11,
+      "mtimeMs": 1534392661220.766,
+      "ctimeMs": 1534392661220.766,
+      "birthtimeMs": 1534391322557.771,
+      "atime": "2018-08-16T04:57:07.276Z",
+      "mtime": "2018-08-16T04:11:01.221Z",
+      "ctime": "2018-08-16T04:11:01.221Z",
+      "birthtime": "2018-08-16T03:48:42.558Z"
     },
     "/Users/williamwinberg/Desktop/portfolio/src/pages/index.js absPath of file": {
       "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/index.js absPath of file",
@@ -994,7 +1041,7 @@
       "size": 194,
       "prettySize": "194 B",
       "modifiedTime": "2018-08-16T04:26:21.873Z",
-      "accessTime": "2018-08-16T04:26:22.148Z",
+      "accessTime": "2018-08-16T04:57:07.276Z",
       "changeTime": "2018-08-16T04:26:21.873Z",
       "birthTime": "2018-08-14T01:18:00.978Z",
       "root": "/",
@@ -1012,11 +1059,11 @@
       "blksize": 4194304,
       "ino": 8609024825,
       "blocks": 8,
-      "atimeMs": 1534393582147.7039,
+      "atimeMs": 1534395427276.115,
       "mtimeMs": 1534393581873.2886,
       "ctimeMs": 1534393581873.2886,
       "birthtimeMs": 1534209480977.9297,
-      "atime": "2018-08-16T04:26:22.148Z",
+      "atime": "2018-08-16T04:57:07.276Z",
       "mtime": "2018-08-16T04:26:21.873Z",
       "ctime": "2018-08-16T04:26:21.873Z",
       "birthtime": "2018-08-14T01:18:00.978Z"
@@ -1039,7 +1086,7 @@
       "size": 249,
       "prettySize": "249 B",
       "modifiedTime": "2018-08-15T05:43:39.483Z",
-      "accessTime": "2018-08-16T04:12:26.551Z",
+      "accessTime": "2018-08-16T04:57:07.276Z",
       "changeTime": "2018-08-15T05:43:39.483Z",
       "birthTime": "2018-08-14T01:18:00.978Z",
       "root": "/",
@@ -1057,61 +1104,14 @@
       "blksize": 4194304,
       "ino": 8609024826,
       "blocks": 8,
-      "atimeMs": 1534392746551.0962,
+      "atimeMs": 1534395427276.1196,
       "mtimeMs": 1534311819483.1782,
       "ctimeMs": 1534311819483.1782,
       "birthtimeMs": 1534209480978.1438,
-      "atime": "2018-08-16T04:12:26.551Z",
+      "atime": "2018-08-16T04:57:07.276Z",
       "mtime": "2018-08-15T05:43:39.483Z",
       "ctime": "2018-08-15T05:43:39.483Z",
       "birthtime": "2018-08-14T01:18:00.978Z"
-    },
-    "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file": {
-      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file",
-      "children": [
-        "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c31216f17d4fea2eaf3d85a6b56f6386",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/pages/2018-08-16-post-two/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md",
-      "relativePath": "2018-08-16-post-two/index.md",
-      "extension": "md",
-      "size": 131,
-      "prettySize": "131 B",
-      "modifiedTime": "2018-08-16T03:28:11.665Z",
-      "accessTime": "2018-08-16T04:14:56.483Z",
-      "changeTime": "2018-08-16T03:28:11.665Z",
-      "birthTime": "2018-08-16T03:27:26.328Z",
-      "root": "/",
-      "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "2018-08-16-post-two",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8609252096,
-      "blocks": 8,
-      "atimeMs": 1534392896483.198,
-      "mtimeMs": 1534390091664.842,
-      "ctimeMs": 1534390091664.842,
-      "birthtimeMs": 1534390046328.3267,
-      "atime": "2018-08-16T04:14:56.483Z",
-      "mtime": "2018-08-16T03:28:11.665Z",
-      "ctime": "2018-08-16T03:28:11.665Z",
-      "birthtime": "2018-08-16T03:27:26.328Z"
     },
     "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-15-post-one/index.md absPath of file": {
       "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-15-post-one/index.md absPath of file",
@@ -1133,7 +1133,7 @@
       "size": 131,
       "prettySize": "131 B",
       "modifiedTime": "2018-08-16T03:27:34.796Z",
-      "accessTime": "2018-08-16T03:35:34.346Z",
+      "accessTime": "2018-08-16T04:57:07.276Z",
       "changeTime": "2018-08-16T03:27:34.796Z",
       "birthTime": "2018-08-16T03:23:44.351Z",
       "root": "/",
@@ -1151,36 +1151,61 @@
       "blksize": 4194304,
       "ino": 8609252062,
       "blocks": 8,
-      "atimeMs": 1534390534345.7139,
+      "atimeMs": 1534395427276.0867,
       "mtimeMs": 1534390054796.1426,
       "ctimeMs": 1534390054796.1426,
       "birthtimeMs": 1534389824351.059,
-      "atime": "2018-08-16T03:35:34.346Z",
+      "atime": "2018-08-16T04:57:07.276Z",
       "mtime": "2018-08-16T03:27:34.796Z",
       "ctime": "2018-08-16T03:27:34.796Z",
       "birthtime": "2018-08-16T03:23:44.351Z"
     },
-    "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file",
+    "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file": {
+      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file",
+      "children": [
+        "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "---\npath: \"/post-two\"\ndate: \"2018-08-16\"\ntitle: \"Next gatsby post\"\nauthor: \"William Winberg\"\n---\n\nThis is my **second** blog post!\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "df61ef0fb7c17b33e905c07656025d9f",
-        "owner": "gatsby-transformer-remark"
+        "contentDigest": "c31216f17d4fea2eaf3d85a6b56f6386",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/2018-08-16-post-two/index.md\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Next gatsby post",
-        "path": "/post-two",
-        "date": "2018-08-16",
-        "author": "William Winberg",
-        "_PARENT": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file",
-        "parent": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nThis is my **second** blog post!\n",
-      "fileAbsolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md"
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md",
+      "relativePath": "2018-08-16-post-two/index.md",
+      "extension": "md",
+      "size": 131,
+      "prettySize": "131 B",
+      "modifiedTime": "2018-08-16T03:28:11.665Z",
+      "accessTime": "2018-08-16T04:57:07.276Z",
+      "changeTime": "2018-08-16T03:28:11.665Z",
+      "birthTime": "2018-08-16T03:27:26.328Z",
+      "root": "/",
+      "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-08-16-post-two",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8609252096,
+      "blocks": 8,
+      "atimeMs": 1534395427276.0967,
+      "mtimeMs": 1534390091664.842,
+      "ctimeMs": 1534390091664.842,
+      "birthtimeMs": 1534390046328.3267,
+      "atime": "2018-08-16T04:57:07.276Z",
+      "mtime": "2018-08-16T03:28:11.665Z",
+      "ctime": "2018-08-16T03:28:11.665Z",
+      "birthtime": "2018-08-16T03:27:26.328Z"
     },
     "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-15-post-one/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-15-post-one/index.md absPath of file >>> MarkdownRemark",
@@ -1204,6 +1229,70 @@
       "rawMarkdownBody": "\nThis is my **first** blog post!\n",
       "fileAbsolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-15-post-one/index.md"
     },
+    "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/post-two\"\ndate: \"2018-08-16\"\ntitle: \"Next gatsby post\"\nauthor: \"William Winberg\"\n---\n\nThis is my **second** blog post!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "df61ef0fb7c17b33e905c07656025d9f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Next gatsby post",
+        "path": "/post-two",
+        "date": "2018-08-16",
+        "author": "William Winberg",
+        "_PARENT": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file",
+        "parent": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my **second** blog post!\n",
+      "fileAbsolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md"
+    },
+    "SitePage /post-one": {
+      "layout": "index",
+      "jsonName": "post-one.json",
+      "internalComponentName": "ComponentPostOne",
+      "path": "/post-one",
+      "component": "/Users/williamwinberg/Desktop/portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/williamwinberg/Desktop/portfolio/src/templates/blog-post.js",
+      "id": "SitePage /post-one",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b94c67aa831805d429ba0a4d1398a22b",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post-two": {
+      "layout": "index",
+      "jsonName": "post-two.json",
+      "internalComponentName": "ComponentPostTwo",
+      "path": "/post-two",
+      "component": "/Users/williamwinberg/Desktop/portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/williamwinberg/Desktop/portfolio/src/templates/blog-post.js",
+      "id": "SitePage /post-two",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6fa249c9fe169b00235a47b4a8771304",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404/": {
       "layout": "index",
       "jsonName": "404.json",
@@ -1220,7 +1309,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d9850dcbb16f718bb06e406e15d0fb60",
+        "contentDigest": "fe01ad78a57b8a56c47f35ad86b51b14",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5278c75bc68c99274d70357c22f42356",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1241,7 +1351,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "31dcbf47b111bfcf50a70fa7bf2eadc6",
+        "contentDigest": "c936a4e812225a4a233566a86aaf3f77",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1262,7 +1372,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0c33fdf5c370c02a6900e78dffdb7ee6",
+        "contentDigest": "c493ad04b4f14193fe97fe4d724c72f4",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1283,7 +1393,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "13ef95bc2f561f616496307517195160",
+        "contentDigest": "9c799b310921c81a32ba8c34acac65ba",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1304,59 +1414,84 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "29d75f59aa2dd2c11aaf87a2742eb83b",
+        "contentDigest": "0aff73ce8c291d988d6b5149add35e81",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "ed31a12d8001f413a0c34d0c53ca6ae0",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js absPath of file": {
-      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js absPath of file",
+    "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three absPath of file": {
+      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ed5aaa113e6e92e4abd4e68238342939",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/about.js\"",
+        "contentDigest": "330b03260948b73d68e8c25ef37dd8d5",
+        "type": "Directory",
+        "description": "Directory \"src/pages/2019-08-17-post-three\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js",
-      "relativePath": "about.js",
-      "extension": "js",
-      "size": 183,
-      "prettySize": "183 B",
-      "modifiedTime": "2018-08-16T04:27:32.882Z",
-      "accessTime": "2018-08-16T04:27:32.882Z",
-      "changeTime": "2018-08-16T04:27:32.882Z",
-      "birthTime": "2018-08-16T04:26:35.505Z",
+      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three",
+      "relativePath": "2019-08-17-post-three",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-08-16T05:01:45.466Z",
+      "accessTime": "2018-08-16T05:01:59.755Z",
+      "changeTime": "2018-08-16T05:01:59.644Z",
+      "birthTime": "2018-08-16T05:01:45.465Z",
       "root": "/",
       "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages",
-      "base": "about.js",
-      "ext": ".js",
-      "name": "about",
+      "base": "2019-08-17-post-three",
+      "ext": "",
+      "name": "2019-08-17-post-three",
       "relativeDirectory": "",
+      "dev": 16777222,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8609258334,
+      "blocks": 0,
+      "atimeMs": 1534395719754.968,
+      "mtimeMs": 1534395705465.718,
+      "ctimeMs": 1534395719644.0986,
+      "birthtimeMs": 1534395705465.1174,
+      "atime": "2018-08-16T05:01:59.755Z",
+      "mtime": "2018-08-16T05:01:45.466Z",
+      "ctime": "2018-08-16T05:01:59.644Z",
+      "birthtime": "2018-08-16T05:01:45.465Z"
+    },
+    "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file": {
+      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file",
+      "children": [
+        "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ce757d8f23876ea3cb9a6943e6daf113",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/2019-08-17-post-three/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md",
+      "relativePath": "2019-08-17-post-three/index.md",
+      "extension": "md",
+      "size": 133,
+      "prettySize": "133 B",
+      "modifiedTime": "2018-08-16T05:02:27.770Z",
+      "accessTime": "2018-08-16T05:02:27.769Z",
+      "changeTime": "2018-08-16T05:02:27.770Z",
+      "birthTime": "2018-08-16T05:01:45.466Z",
+      "root": "/",
+      "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2019-08-17-post-three",
       "dev": 16777222,
       "mode": 33188,
       "nlink": 1,
@@ -1364,34 +1499,86 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8609257016,
+      "ino": 8609258335,
       "blocks": 8,
-      "atimeMs": 1534393652881.896,
-      "mtimeMs": 1534393652882.2664,
-      "ctimeMs": 1534393652882.2664,
-      "birthtimeMs": 1534393595504.8088,
-      "atime": "2018-08-16T04:27:32.882Z",
-      "mtime": "2018-08-16T04:27:32.882Z",
-      "ctime": "2018-08-16T04:27:32.882Z",
-      "birthtime": "2018-08-16T04:26:35.505Z"
+      "atimeMs": 1534395747769.4736,
+      "mtimeMs": 1534395747769.9895,
+      "ctimeMs": 1534395747769.9895,
+      "birthtimeMs": 1534395705465.7112,
+      "atime": "2018-08-16T05:02:27.769Z",
+      "mtime": "2018-08-16T05:02:27.770Z",
+      "ctime": "2018-08-16T05:02:27.770Z",
+      "birthtime": "2018-08-16T05:01:45.466Z"
+    },
+    "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/post-three\"\ndate: \"2018-08-17\"\ntitle: \"Third gatsby post\"\nauthor: \"William Winberg\"\n---\n\nThis is my **third** blog post!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "7c426ac25db129ebd7ec8b17399eb3f5",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Third gatsby post",
+        "path": "/post-three",
+        "date": "2018-08-17",
+        "author": "William Winberg",
+        "_PARENT": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file",
+        "parent": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my **third** blog post!\n",
+      "fileAbsolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md"
+    },
+    "SitePage /post-three": {
+      "layout": "index",
+      "jsonName": "post-three.json",
+      "internalComponentName": "ComponentPostThree",
+      "path": "/post-three",
+      "component": "/Users/williamwinberg/Desktop/portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/williamwinberg/Desktop/portfolio/src/templates/blog-post.js",
+      "id": "SitePage /post-three",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4110edb9b8402978c70c67695269455a",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "7da7ff3d888bf26e58b3447b8c4373f9"
+    "PLUGINS_HASH": "76ef41fb99123a49e0ac69f4aeff8d49"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "LAYOUT___index"
+      ],
+      "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-15-post-one/index.md absPath of file >>> MarkdownRemark": [
+        "/post-one"
+      ],
+      "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two/index.md absPath of file >>> MarkdownRemark": [
+        "/post-two"
+      ],
+      "/Users/williamwinberg/Desktop/portfolio/src/pages/2019-08-17-post-three/index.md absPath of file >>> MarkdownRemark": [
+        "/post-three"
       ]
     },
     "connections": {
-      "MarkdownRemark": [
-        "/blog/"
-      ],
       "SitePage": [
         "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/blog/"
       ]
     }
   }
