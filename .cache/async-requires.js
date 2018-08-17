@@ -22,9 +22,9 @@ exports.json = {
   "about.json": require("gatsby-module-loader?name=path---about!/Users/williamwinberg/Desktop/portfolio/.cache/json/about.json"),
   "blog.json": require("gatsby-module-loader?name=path---blog!/Users/williamwinberg/Desktop/portfolio/.cache/json/blog.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/williamwinberg/Desktop/portfolio/.cache/json/index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/williamwinberg/Desktop/portfolio/.cache/json/404-html.json"),
   "portfolio.json": require("gatsby-module-loader?name=path---portfolio!/Users/williamwinberg/Desktop/portfolio/.cache/json/portfolio.json"),
-  "styles.json": require("gatsby-module-loader?name=path---styles!/Users/williamwinberg/Desktop/portfolio/.cache/json/styles.json")
+  "styles.json": require("gatsby-module-loader?name=path---styles!/Users/williamwinberg/Desktop/portfolio/.cache/json/styles.json"),
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/williamwinberg/Desktop/portfolio/.cache/json/404-html.json")
 }
 
 exports.layouts = {

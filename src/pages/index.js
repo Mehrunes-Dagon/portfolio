@@ -9,7 +9,7 @@ import {
 const IndexPage = () => (
   <BodyContainer>
     <h1>Welcome to my site</h1>
-    <LandingPic />
+    <LandingPic src='../images/me.jpg' />
   </BodyContainer>
 );
 

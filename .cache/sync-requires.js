@@ -27,7 +27,7 @@ exports.json = {
   "about.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/about.json"),
   "blog.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/blog.json"),
   "index.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/index.json"),
-  "404-html.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/404-html.json"),
   "portfolio.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/portfolio.json"),
-  "styles.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/styles.json")
+  "styles.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/styles.json"),
+  "404-html.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/404-html.json")
 }
