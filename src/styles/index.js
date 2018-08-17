@@ -18,10 +18,9 @@ export const ExternalLink = styled.a.attrs({
     opacity: .5;
   }
 `;
-export const LandingPic = styled.div`
-  background-image: url('../images/me.jpg');
-  width: 457px;
-  height: 667px;
+export const LandingPic = styled.img`
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   `;
 

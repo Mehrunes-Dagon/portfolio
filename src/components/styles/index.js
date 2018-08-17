@@ -16,7 +16,7 @@ export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5em;
+  padding: 1.6em 5em;
   background: black;
 `;
 export const NavLogo = styled.a`
