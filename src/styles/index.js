@@ -23,6 +23,5 @@ export const LandingPic = styled.div`
   width: 457px;
   height: 667px;
   border-radius: 50%;
-  box-shadow: 0 0 8px 8px white inset;
   `;
 

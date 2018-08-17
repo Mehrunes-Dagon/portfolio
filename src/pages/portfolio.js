@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
   BodyContainer,
-} from './styles';
+} from '../styles';
 
 const PortfolioPage = () => (
   <BodyContainer>

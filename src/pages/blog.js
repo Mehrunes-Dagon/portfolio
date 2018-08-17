@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 import {
   BodyContainer,
-} from './styles';
+} from '../styles';
 
 const BlogPage = ({ data }) => (
   <BodyContainer>

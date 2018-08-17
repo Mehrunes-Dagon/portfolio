@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import {
   BodyContainer,
   LandingPic,
-} from './styles';
+} from '../styles';
 
 const IndexPage = () => (
   <BodyContainer>
