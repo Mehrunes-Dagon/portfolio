@@ -12,11 +12,10 @@ import {
 
 const Header = ({ siteTitle }) => (
   <NavContainer>
-    <NavLogo>WW</NavLogo>
+    <NavLogo to='/'>WW</NavLogo>
     <NavLinks>
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/about'>Me</NavLink>
-      <NavLink to='/portfolio'>Projects</NavLink>
+      <NavLink to='/about'>About</NavLink>
+      <NavLink to='/portfolio'>Portfolio</NavLink>
       <NavLink to='/blog'>Blog</NavLink>
       <NavIcons>
         <ExternalLink
@@ -46,7 +45,7 @@ const Header = ({ siteTitle }) => (
         </ExternalLink>
       </NavIcons>
     </NavLinks>
-  </NavContainer>
+  </NavContainer >
 );
 
 export default Header;

@@ -3,10 +3,18 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Nav from '../components/nav';
-import './index.css';
+// import './index.css';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+`;
 
 const Layout = ({ children, data }) => (
-  <div>
+  <Container>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -16,7 +24,7 @@ const Layout = ({ children, data }) => (
     />
     <Nav />
     {children()}
-  </div>
+  </Container>
 );
 
 Layout.propTypes = {

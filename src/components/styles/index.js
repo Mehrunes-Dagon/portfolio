@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import Link from 'gatsby-link';
 
+const textFont = "'Lora' | serif";
+const titleFont = "'Titillium Web' | sans-serif";
+
 // GLOBAL
 export const ExternalLink = styled.a.attrs({
   target: '_blank',
@@ -19,18 +22,13 @@ export const NavContainer = styled.div`
   padding: 1.6em 5em;
   background: black;
 `;
-export const NavLogo = styled.a`
-  font-family: 'Jacques Francois Shadow';
-  font-size: 5em;
-  letter-spacing: -.3em;
-  color: white;
-`;
 export const NavLinks = styled.div`
   display: flex;
   align-items: center;
 `;
 export const NavLink = styled(Link)`
   font-size: 1.4em;
+  font-family: Lora;
   color: white;
   margin: 0 .4em;
   text-decoration: none;
@@ -38,6 +36,11 @@ export const NavLink = styled(Link)`
     text-decoration: none;
     opacity: .5;
   }
+`;
+export const NavLogo = NavLink.extend`
+  font-family: 'Jacques Francois Shadow';
+  font-size: 5em;
+  letter-spacing: -.3em;
 `;
 export const NavIcons = styled.div`
   margin-left: 2em;

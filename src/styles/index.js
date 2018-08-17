@@ -1,13 +1,37 @@
 import styled from 'styled-components';
 import Link from 'gatsby-link';
 
+const textFont = "'Lora' | serif";
+const titleFont = "'Titillium Web' | sans-serif";
+
 // PAGES
 export const BodyContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: ${props => (props.row ? 'row' : 'column')};
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+`;
+export const ChildContainer = styled.div`
+  display: flex;
   justify-content: center;
   align-items: center;
 `;
+export const Title = styled.div`
+  font-family: ${titleFont};
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const Paragraph = styled.div`
+  font-family: ${textFont};
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 
 //LINK
 export const ExternalLink = styled.a.attrs({
