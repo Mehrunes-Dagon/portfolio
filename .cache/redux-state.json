@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9a3b64d3e5d4fcaa4b586ca7881c218b",
+        "contentDigest": "5e9501c8153457ad3c23c30cd1c6940c",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -750,12 +750,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-18T06:29:43.132Z",
+      "buildTime": "2018-08-18T07:09:39.194Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6eb22aa9e391c8f9c784345c9e999923",
+        "contentDigest": "e8962efb8e6b10431af793bceb5cb51b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -765,7 +765,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e6d63dcdc6dde746a240a440de5a7ee9",
+        "contentDigest": "8bf437c1adecb0281db4fbd3fce95120",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -774,11 +774,11 @@
       "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 288,
-      "prettySize": "288 B",
-      "modifiedTime": "2018-08-17T15:04:48.046Z",
-      "accessTime": "2018-08-18T06:29:45.315Z",
-      "changeTime": "2018-08-17T15:04:48.046Z",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-08-18T06:51:49.106Z",
+      "accessTime": "2018-08-18T07:09:40.653Z",
+      "changeTime": "2018-08-18T06:51:49.106Z",
       "birthTime": "2018-08-14T01:18:00.978Z",
       "root": "/",
       "dir": "/Users/williamwinberg/Desktop/portfolio/src",
@@ -788,20 +788,20 @@
       "relativeDirectory": "..",
       "dev": 16777222,
       "mode": 16877,
-      "nlink": 9,
+      "nlink": 10,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8609024823,
       "blocks": 0,
-      "atimeMs": 1534573785314.9402,
-      "mtimeMs": 1534518288046.1943,
-      "ctimeMs": 1534518288046.1943,
+      "atimeMs": 1534576180653.4275,
+      "mtimeMs": 1534575109106.1174,
+      "ctimeMs": 1534575109106.1174,
       "birthtimeMs": 1534209480977.696,
-      "atime": "2018-08-18T06:29:45.315Z",
-      "mtime": "2018-08-17T15:04:48.046Z",
-      "ctime": "2018-08-17T15:04:48.046Z",
+      "atime": "2018-08-18T07:09:40.653Z",
+      "mtime": "2018-08-18T06:51:49.106Z",
+      "ctime": "2018-08-18T06:51:49.106Z",
       "birthtime": "2018-08-14T01:18:00.978Z"
     },
     "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-16-post-two absPath of file": {
@@ -809,7 +809,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a22c4bda314ee9be9183c868fe39a218",
+        "contentDigest": "8c01be4e3f3d7732083687a9406a2b30",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-08-16-post-two\"",
         "owner": "gatsby-source-filesystem"
@@ -821,7 +821,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-16T03:27:26.328Z",
-      "accessTime": "2018-08-18T06:29:45.317Z",
+      "accessTime": "2018-08-18T07:09:40.655Z",
       "changeTime": "2018-08-16T03:27:26.328Z",
       "birthTime": "2018-08-16T03:27:18.146Z",
       "root": "/",
@@ -839,11 +839,11 @@
       "blksize": 4194304,
       "ino": 8609252095,
       "blocks": 0,
-      "atimeMs": 1534573785317.2258,
+      "atimeMs": 1534576180655.3289,
       "mtimeMs": 1534390046328.3376,
       "ctimeMs": 1534390046328.3376,
       "birthtimeMs": 1534390038146.216,
-      "atime": "2018-08-18T06:29:45.317Z",
+      "atime": "2018-08-18T07:09:40.655Z",
       "mtime": "2018-08-16T03:27:26.328Z",
       "ctime": "2018-08-16T03:27:26.328Z",
       "birthtime": "2018-08-16T03:27:18.146Z"
@@ -853,7 +853,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8dd0e7b9ec9f88eb19413d76960febb7",
+        "contentDigest": "4c4b8127ef3b4cfd1116ca98b6c1e399",
         "type": "Directory",
         "description": "Directory \"src/pages/2018-08-15-post-one\"",
         "owner": "gatsby-source-filesystem"
@@ -865,7 +865,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-16T03:25:09.531Z",
-      "accessTime": "2018-08-18T06:29:45.317Z",
+      "accessTime": "2018-08-18T07:09:40.655Z",
       "changeTime": "2018-08-16T03:25:09.531Z",
       "birthTime": "2018-08-16T03:23:32.368Z",
       "root": "/",
@@ -883,11 +883,11 @@
       "blksize": 4194304,
       "ino": 8609252060,
       "blocks": 0,
-      "atimeMs": 1534573785317.228,
+      "atimeMs": 1534576180655.336,
       "mtimeMs": 1534389909531.4846,
       "ctimeMs": 1534389909531.4846,
       "birthtimeMs": 1534389812368.175,
-      "atime": "2018-08-18T06:29:45.317Z",
+      "atime": "2018-08-18T07:09:40.655Z",
       "mtime": "2018-08-16T03:25:09.531Z",
       "ctime": "2018-08-16T03:25:09.531Z",
       "birthtime": "2018-08-16T03:23:32.368Z"
@@ -1255,6 +1255,51 @@
       "rawMarkdownBody": "\nThis is my **first** blog post!\n",
       "fileAbsolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/2018-08-15-post-one/index.md"
     },
+    "/Users/williamwinberg/Desktop/portfolio/src/pages/contact.js absPath of file": {
+      "id": "/Users/williamwinberg/Desktop/portfolio/src/pages/contact.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a2cdd5c5a7738bb60f9d978120299c34",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/contact.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/contact.js",
+      "relativePath": "contact.js",
+      "extension": "js",
+      "size": 331,
+      "prettySize": "331 B",
+      "modifiedTime": "2018-08-18T07:11:14.571Z",
+      "accessTime": "2018-08-18T07:11:14.571Z",
+      "changeTime": "2018-08-18T07:11:14.571Z",
+      "birthTime": "2018-08-18T06:51:49.106Z",
+      "root": "/",
+      "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages",
+      "base": "contact.js",
+      "ext": ".js",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8609446879,
+      "blocks": 8,
+      "atimeMs": 1534576274570.953,
+      "mtimeMs": 1534576274571.3523,
+      "ctimeMs": 1534576274571.3523,
+      "birthtimeMs": 1534575109106.103,
+      "atime": "2018-08-18T07:11:14.571Z",
+      "mtime": "2018-08-18T07:11:14.571Z",
+      "ctime": "2018-08-18T07:11:14.571Z",
+      "birthtime": "2018-08-18T06:51:49.106Z"
+    },
     "SitePage /post-two": {
       "layout": "index",
       "jsonName": "post-two.json",
@@ -1271,7 +1316,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7ace9781f69db84a77164e3d5d1258f",
+        "contentDigest": "66023be4aff870273d4994057da5876d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1292,7 +1337,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3a9a25f1e1dcdf0ab583d5ff4c96e8c6",
+        "contentDigest": "9c2bf8c6a52b197558049e3b0ddb9143",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1313,7 +1358,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b8def6f4fdb08e8c876f6c8f95e625ee",
+        "contentDigest": "46d3d350541053dfad106eed19abcd8d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1334,7 +1379,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "17817bd245fd3379cd5546f4de6d89af",
+        "contentDigest": "0d3e60ea1bf97f16c1f0a5f533cbc173",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1355,7 +1400,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "062c5f42620f9cc758119b56a623cc3e",
+        "contentDigest": "da1746ebb04eb51b63bf4befe8b24c8d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/williamwinberg/Desktop/portfolio/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/williamwinberg/Desktop/portfolio/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2fe1b313ed0766a0427f3ea8758c11f7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1376,7 +1442,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6b08daeb96df2e4a15d2bf532e00f278",
+        "contentDigest": "839e369aa5d2422b8f0bcecd676b4f83",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1397,7 +1463,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "920ace5286fd1b0cc8a2bd37f33be262",
+        "contentDigest": "11ee5153e0da6f7522ff2d9ade5baad1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1418,7 +1484,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "93d94b548c01ce98bf84fa85e750addb",
+        "contentDigest": "d4c891b0e1810f7c731fae1e4c5f96ac",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
