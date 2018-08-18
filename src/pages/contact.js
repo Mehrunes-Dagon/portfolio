@@ -10,8 +10,6 @@ import {
 
 const ContactPage = () => (
   <BodyContainer>
-    <Title>About Me:</Title>
-    <Paragraph>Sup! I'm p cool</Paragraph>
     <Contact />
   </BodyContainer>
 );
