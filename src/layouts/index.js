@@ -3,14 +3,15 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Nav from '../components/nav';
-// import './index.css';
+import Footer from '../components/footer';
+
 import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 100%;
+  height: 100vh;
 `;
 
 const Layout = ({ children, data }) => (
@@ -24,6 +25,7 @@ const Layout = ({ children, data }) => (
     />
     <Nav />
     {children()}
+    <Footer />
   </Container>
 );
 

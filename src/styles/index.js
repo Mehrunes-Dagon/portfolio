@@ -11,6 +11,8 @@ export const BodyContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100%;
+  margin: 1em 0;
 `;
 export const ChildContainer = styled.div`
   display: flex;
@@ -30,6 +32,7 @@ export const Paragraph = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 300px;
 `;
 
 

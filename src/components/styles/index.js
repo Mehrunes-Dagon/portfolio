@@ -19,7 +19,7 @@ export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6em 5em;
+  padding: 1em 5em;
   background: black;
 `;
 export const NavLinks = styled.div`
@@ -51,3 +51,27 @@ export const Icon = styled.img`
   width: 50px;
 `;
 
+// FOOTER
+export const FooterContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 5em;
+  border-top: 1px solid lightgray;
+  bottom: 0;
+`;
+export const FooterLinks = styled.div`
+  display: flex;
+  align-items: center;
+`;
+export const FooterLink = styled(Link)`
+  font-size: 1.4em;
+  font-family: Lora;
+  color: black;
+  margin: 0 .4em;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    opacity: .5;
+  }
+`;
