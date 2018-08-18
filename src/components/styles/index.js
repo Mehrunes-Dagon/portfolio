@@ -40,7 +40,11 @@ export const NavLink = styled(Link)`
 export const NavLogo = NavLink.extend`
   font-family: 'Jacques Francois Shadow';
   font-size: 5em;
+  margin: 0;
   letter-spacing: -.3em;
+  &:hover {
+    opacity: 1;
+  }
 `;
 export const NavIcons = styled.div`
   margin-left: 2em;

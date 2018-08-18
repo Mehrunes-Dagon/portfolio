@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
 
+import './index.css';
 import styled from 'styled-components';
 
 const Container = styled.div`

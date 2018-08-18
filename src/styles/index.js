@@ -10,9 +10,7 @@ export const BodyContainer = styled.div`
   flex-direction: ${props => (props.row ? 'row' : 'column')};
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100%;
-  margin: 1em 0;
 `;
 export const ChildContainer = styled.div`
   display: flex;
