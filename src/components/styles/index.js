@@ -79,3 +79,18 @@ export const FooterLink = styled(Link)`
     opacity: .5;
   }
 `;
+
+// CONTACT
+export const ContactContainer = styled.div`
+  display: flex;
+  align-items: center;
+`; export const ContactForm = styled.form`
+  display: flex;
+  align-items: center;
+`; export const FormInput = styled.input`
+  display: flex;
+  align-items: center;
+`; export const FormTitle = styled.title`
+  display: flex;
+  align-items: center;
+`;
