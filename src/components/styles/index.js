@@ -13,6 +13,11 @@ export const ExternalLink = styled.a.attrs({
     opacity: .5;
   }
 `;
+export const Box = styled.div`
+  display: flex;
+  flex-direction: ${props => props.direction};
+  justify-content: ${props => props.justify};
+`;
 
 // NAV
 export const NavContainer = styled.div`
@@ -83,14 +88,31 @@ export const FooterLink = styled(Link)`
 // CONTACT
 export const ContactContainer = styled.div`
   display: flex;
-  align-items: center;
-`; export const ContactForm = styled.form`
+  height: 700px;
+`;
+export const ContactForm = styled.form`
   display: flex;
-  align-items: center;
-`; export const FormInput = styled.input`
+  flex-direction: column;
+`;
+export const FormLabel = styled.label`
+
+`;
+export const FormInput = styled.input`
+
+`;
+export const FormTextarea = styled.input`
+
+`;
+export const FormButton = styled.input`
+ 
+`;
+export const InfoBox = styled.div`
   display: flex;
-  align-items: center;
-`; export const FormTitle = styled.title`
-  display: flex;
-  align-items: center;
+  flex-direction: column;
+`;
+export const Title = styled.div`
+  font-size: 1.5em;
+`;
+export const Text = styled.p`
+
 `;
