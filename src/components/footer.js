@@ -12,6 +12,7 @@ const Footer = ({ siteTitle }) => (
       <FooterLink to='/about'>About</FooterLink>
       <FooterLink to='/portfolio'>Portfolio</FooterLink>
       <FooterLink to='/blog'>Blog</FooterLink>
+      <FooterLink to='/contact'>Contact</FooterLink>
     </FooterLinks>
   </FooterContainer >
 );

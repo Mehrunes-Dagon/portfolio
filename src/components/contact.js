@@ -46,20 +46,20 @@ const Contact = (props) => (
 
     <section>
       <InfoBox>
-        <Icon />
+        <Icon src='../images/mail.png' />
         <Title>Email</Title>
         <ExternalLink href="#">wtpwinberg@gmail.com</ExternalLink>
       </InfoBox>
 
       <InfoBox>
-        <Icon />
+        <Icon src='../images/mail.png' />
         <Title>Phone</Title>
         <Text>(626) 824-4181</Text>
       </InfoBox>
 
 
       <InfoBox>
-        <Icon />
+        <Icon src='../images/mail.png' />
         <Title>Location</Title>
         <Text>Vancouver, WA<br />
           USA</Text>
