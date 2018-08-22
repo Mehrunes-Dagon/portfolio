@@ -3,6 +3,8 @@ import Link from 'gatsby-link';
 
 import {
   BodyContainer,
+  Page,
+  Box,
   LandingPic,
   Title,
   Paragraph,
@@ -10,15 +12,17 @@ import {
 
 const IndexPage = () => (
   <BodyContainer row>
-    <div>
-      <Title>
-        Software Developer
-      </Title>
-      <Paragraph>
-        Hello. I'm William, a full-stack software developer from Los Angeles. I like to build cool stuff.
-      </Paragraph>
-    </div>
-    <LandingPic src='../images/me.jpg' />
+    <Page>
+      <Box direction='column'>
+        <Title>
+          William Winberg
+        </Title>
+        <Paragraph>
+          Hello. I'm William, a full-stack software developer living in the Portland area. I like to make cool things.
+        </Paragraph>
+      </Box>
+      <LandingPic src='../images/me.jpg' />
+    </Page>
   </BodyContainer>
 );
 

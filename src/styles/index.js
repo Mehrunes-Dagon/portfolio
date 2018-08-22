@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 
 const textFont = "'Lora' | serif";
 const titleFont = "'Titillium Web' | sans-serif";
+const fontColor = 'white';
 
 // PAGES
 export const BodyContainer = styled.div`
@@ -22,18 +23,20 @@ export const ChildContainer = styled.div`
 `;
 export const Title = styled.div`
   font-family: ${titleFont};
-  font-size: 2em;
+  color: ${fontColor};
+  font-size: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 export const Paragraph = styled.div`
   font-family: ${textFont};
+  color: ${fontColor};
   font-size: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
+   padding-top: 1em;
 `;
 
 
@@ -46,9 +49,27 @@ export const ExternalLink = styled.a.attrs({
     opacity: .5;
   }
 `;
+
+// LANDING 
+export const Page = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3em;
+  max-width: 980px;
+  background: #242A41; 
+`;
+export const Box = styled.div`
+  display: flex;
+  width: 100%;
+  flex-direction: ${props => props.direction};
+  justify-content: ${props => props.justify};
+  padding: 2em;
+`;
 export const LandingPic = styled.img`
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  `;
+`;
 
