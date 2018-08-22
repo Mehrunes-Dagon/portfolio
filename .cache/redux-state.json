@@ -987,7 +987,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "514aed598181c4bdc4c7d7e7920347ff",
+        "contentDigest": "22ee33cb5a74ac58911d185b1950b7db",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/about.js\"",
@@ -997,11 +997,11 @@
       "absolutePath": "/Users/williamwinberg/Desktop/portfolio/src/pages/about.js",
       "relativePath": "about.js",
       "extension": "js",
-      "size": 218,
-      "prettySize": "218 B",
-      "modifiedTime": "2018-08-17T15:05:24.966Z",
-      "accessTime": "2018-08-18T06:06:36.740Z",
-      "changeTime": "2018-08-17T15:05:24.966Z",
+      "size": 522,
+      "prettySize": "522 B",
+      "modifiedTime": "2018-08-22T17:45:43.654Z",
+      "accessTime": "2018-08-22T17:45:43.654Z",
+      "changeTime": "2018-08-22T17:45:43.654Z",
       "birthTime": "2018-08-16T04:26:35.505Z",
       "root": "/",
       "dir": "/Users/williamwinberg/Desktop/portfolio/src/pages",
@@ -1018,13 +1018,13 @@
       "blksize": 4194304,
       "ino": 8609257016,
       "blocks": 8,
-      "atimeMs": 1534572396739.7954,
-      "mtimeMs": 1534518324966.137,
-      "ctimeMs": 1534518324966.137,
+      "atimeMs": 1534959943653.5522,
+      "mtimeMs": 1534959943654.0251,
+      "ctimeMs": 1534959943654.0251,
       "birthtimeMs": 1534393595504.8088,
-      "atime": "2018-08-18T06:06:36.740Z",
-      "mtime": "2018-08-17T15:05:24.966Z",
-      "ctime": "2018-08-17T15:05:24.966Z",
+      "atime": "2018-08-22T17:45:43.654Z",
+      "mtime": "2018-08-22T17:45:43.654Z",
+      "ctime": "2018-08-22T17:45:43.654Z",
       "birthtime": "2018-08-16T04:26:35.505Z"
     },
     "/Users/williamwinberg/Desktop/portfolio/src/pages/portfolio.js absPath of file": {
@@ -1316,7 +1316,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ebbcc3265416dcb790e214dd7504a331",
+        "contentDigest": "fa5f0cb0c95197803b2b447afd1f116d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1337,7 +1337,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "466dad4982ff257dcd57a4b03bdce388",
+        "contentDigest": "040c81bc0a66f8377f9d3ada905a3ca7",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
