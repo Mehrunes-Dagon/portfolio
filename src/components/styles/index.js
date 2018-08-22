@@ -17,6 +17,7 @@ export const ExternalLink = styled.a.attrs({
 `;
 export const Box = styled.div`
   display: flex;
+  width: 100%;
   flex-direction: ${props => props.direction};
   justify-content: ${props => props.justify};
 `;
@@ -92,13 +93,15 @@ export const ContactContainer = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
+  max-width: 980px;
   background: #242A41;
 `;
 export const ContactForm = styled.form`
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin: 2em;
+  border: 2px solid #2B3046;
+  padding: 2em;
 `;
 export const FormLabel = styled.label`
   font-size: 1.5em;
@@ -132,12 +135,11 @@ export const InfoBoxes = styled.div`
   flex-direction: column;
   width: 50%;
   justify-content: center;
-  align-items: center;
 `;
 export const InfoBox = styled.div`
   display: flex;
-  flex-direction: column;
   width: 100%;
+  height: 100%;
   padding: 2em;
   border: 2px solid #2B3046;
 `;
@@ -147,4 +149,5 @@ export const Title = styled.div`
 `;
 export const Text = styled.p`
   color: ${fontColor};
+  padding-left: 2em;
 `;
