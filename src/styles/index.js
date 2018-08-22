@@ -11,9 +11,12 @@ export const BodyContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+  background: rgb(42, 48, 72);
 `;
 export const ChildContainer = styled.div`
   display: flex;
+  flex-direction: ${props => (props.column ? 'column' : 'row')};
+  width: 100%;
   justify-content: center;
   align-items: center;
 `;

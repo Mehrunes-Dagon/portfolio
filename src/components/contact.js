@@ -8,47 +8,47 @@ import {
   FormInput,
   FormTextarea,
   FormButton,
+  InfoBoxes,
   InfoBox,
   ExternalLink,
   Title,
   Text,
   Icon,
 } from './styles';
+import { ChildContainer } from '../styles';
 
 const Contact = (props) => (
   <ContactContainer>
-    <section>
-      <ContactForm
-        name="contact"
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-        <FormInput type="hidden" name="bot-field" />
-        <Box>
-          <Box direction='column'>
-            <FormLabel htmlFor="name">Name</FormLabel>
-            <FormInput type="text" name="name" id="name" />
-          </Box>
-          <Box direction='column'>
-            <FormLabel htmlFor="email">Email</FormLabel>
-            <FormInput type="text" name="email" id="email" />
-          </Box>
+    <ContactForm
+      name="contact"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <FormInput type="hidden" name="bot-field" />
+      <Box>
+        <Box direction='column'>
+          <FormLabel htmlFor="name">Name</FormLabel>
+          <FormInput type="text" name="name" id="name" />
         </Box>
-        <FormLabel htmlFor="message">Message</FormLabel>
-        <FormTextarea name="message" id="message" rows="6" />
-        <Box justify='center'>
-          <FormButton type="submit" value="Send Message" className="special" />
-          <FormButton type="reset" value="Clear" />
+        <Box direction='column'>
+          <FormLabel htmlFor="email">Email</FormLabel>
+          <FormInput type="text" name="email" id="email" />
         </Box>
-      </ContactForm>
-    </section>
+      </Box>
+      <FormLabel htmlFor="message">Message</FormLabel>
+      <FormTextarea name="message" id="message" rows="6" />
+      <Box justify='center'>
+        <FormButton type="submit" value="Send Message" className="special" />
+        <FormButton clear type="reset" value="Clear" />
+      </Box>
+    </ContactForm>
 
-    <section>
+    <InfoBoxes>
       <InfoBox>
         <Icon src='../images/mail.png' />
         <Title>Email</Title>
-        <ExternalLink href="#">wtpwinberg@gmail.com</ExternalLink>
+        <ExternalLink href="#" color='white'>wtpwinberg@gmail.com</ExternalLink>
       </InfoBox>
 
       <InfoBox>
@@ -65,7 +65,7 @@ const Contact = (props) => (
           USA</Text>
       </InfoBox>
 
-    </section>
+    </InfoBoxes>
   </ContactContainer >
 );
 

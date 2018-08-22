@@ -3,11 +3,13 @@ import Link from 'gatsby-link';
 
 const textFont = "'Lora' | serif";
 const titleFont = "'Titillium Web' | sans-serif";
+const fontColor = 'white';
 
 // GLOBAL
 export const ExternalLink = styled.a.attrs({
   target: '_blank',
 })`
+  color: ${props => props.color};
   &:hover {
     text-decoration: none;
     opacity: .5;
@@ -88,31 +90,61 @@ export const FooterLink = styled(Link)`
 // CONTACT
 export const ContactContainer = styled.div`
   display: flex;
-  height: 700px;
+  justify-content: center;
+  width: 100%;
+  background: #242A41;
 `;
 export const ContactForm = styled.form`
   display: flex;
   flex-direction: column;
+  width: 50%;
+  margin: 2em;
 `;
 export const FormLabel = styled.label`
-
+  font-size: 1.5em;
+  margin: 1em 1em .5em 1em;
+  color: ${fontColor};
 `;
 export const FormInput = styled.input`
-
+  padding: .5em;
+  margin: 0 1em;
+  background: #2B3046;
+  border: 2px solid #2B3046;
+  color: ${fontColor};
 `;
 export const FormTextarea = styled.input`
-
+  padding: .5em;
+  margin: 0 1em;
+  background: #2B3046;
+  border: 2px solid #2B3046;
+  color: ${fontColor};
 `;
 export const FormButton = styled.input`
- 
+ margin: 1em;
+ padding: .5em 1em;
+ font-size: 1.5em;
+ background: ${props => (props.clear ? '#2B3046' : 'white')};
+ color: ${props => (props.clear ? 'white' : '#2B3046')};
+ border: 2px solid white;
+`;
+export const InfoBoxes = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 `;
 export const InfoBox = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: 2em;
+  border: 2px solid #2B3046;
 `;
 export const Title = styled.div`
   font-size: 1.5em;
+  color: ${fontColor};
 `;
 export const Text = styled.p`
-
+  color: ${fontColor};
 `;
