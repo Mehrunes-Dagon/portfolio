@@ -19,8 +19,8 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/layout-index.json"),
-  "post-two.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/post-two.json"),
   "post-one.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/post-one.json"),
+  "post-two.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/post-two.json"),
   "dev-404-page.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/404.json"),
   "about.json": require("/Users/williamwinberg/Desktop/portfolio/.cache/json/about.json"),
