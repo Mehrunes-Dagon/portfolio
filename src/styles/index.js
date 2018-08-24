@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import Link from 'gatsby-link';
 
+import PieChart from 'react-simple-pie-chart';
+
 const textFont = "'Lora' | serif";
 const titleFont = "'Titillium Web' | sans-serif";
 const fontColor = 'white';
@@ -52,7 +54,8 @@ export const ExternalLink = styled.a.attrs({
 
 // LANDING 
 export const Page = styled.div`
-  display: flex;
+  display: grid;
+  grid: 'grid-template-rows';
   flex-direction: ${props => (props.row ? 'row' : 'column')};
   width: 100%;
   padding: 3em;
@@ -69,11 +72,11 @@ export const Box = styled.div`
   min-width: 0;
   padding: 2em;
 `;
-export const Boxx = styled.div`
-  display: flex;
+export const StyledPieChart = styled(PieChart)`
+  display: inline-block;
   flex-direction: ${props => props.direction};
   justify-content: ${props => props.justify};
-  width: 100%;
+  width: 10px;
   min-width: 0;
   height: 600px;
   padding: 2em;

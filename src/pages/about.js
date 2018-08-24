@@ -1,12 +1,11 @@
 import React from 'react';
 
-import PieChart from 'react-simple-pie-chart';
+import SkillsPieChart from '../components/pieChart.js';
 
 import {
   BodyContainer,
   Page,
   Box,
-  Boxx,
   Title,
   Paragraph,
   LandingPic,
@@ -22,25 +21,18 @@ const AboutPage = () => (
         </Box>
         <LandingPic src='../images/me2.jpg' />
       </Box>
-
-      <Boxx>
+      <div
+        style={{
+          display: 'grid',
+          grid: 'grid-template-columns',
+          width: '500px'
+        }}>
         <Title>Frontend</Title>
-        <PieChart
-          slices={[
-            {
-              color: '#f00',
-              value: 10,
-            },
-            {
-              color: '#0f0',
-              value: 20,
-            },
-          ]}
-        />
-        <Title>Frontend</Title>
-      </Boxx>
+        <SkillsPieChart />
+        <Title>Backend</Title>
+      </div>
     </Page>
-  </BodyContainer>
+  </BodyContainer >
 );
 
 export default AboutPage;
