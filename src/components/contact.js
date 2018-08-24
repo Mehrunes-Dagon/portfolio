@@ -21,8 +21,9 @@ const Contact = (props) => (
   <ContactContainer>
     <ContactForm
       name="contact"
-      method="post"
+      netlify="true"
       data-netlify="true"
+      method="POST"
       data-netlify-honeypot="bot-field"
     >
       <FormInput type="hidden" name="bot-field" />

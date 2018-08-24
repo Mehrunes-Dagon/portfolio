@@ -9,8 +9,7 @@ const fontColor = 'white';
 
 // PAGES
 export const BodyContainer = styled.div`
-  display: flex;
-  flex-direction: ${props => (props.row ? 'row' : 'column')};
+  display: grid;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -55,23 +54,24 @@ export const ExternalLink = styled.a.attrs({
 // LANDING 
 export const Page = styled.div`
   display: grid;
-  grid: 'grid-template-rows';
-  flex-direction: ${props => (props.row ? 'row' : 'column')};
-  width: 100%;
-  padding: 3em;
+  grid-template-columns: 1fr;
   max-width: 980px;
   min-height: 0;
   background: #242A41;
   overflow: auto;
 `;
 export const Box = styled.div`
-  display: flex;
-  flex-direction: ${props => props.direction};
-  justify-content: ${props => props.justify};
+  display: grid;
+  grid-column: ${props => props.column};
+  grid-row: ${props => props.row};
   width: 100%;
-  min-width: 0;
-  padding: 2em;
 `;
+// grid - column - gap: 1em;
+// grid - row - gap: 1em;
+// grid - gap: 1em;
+// grid - auto - rows: minmax(100px, auto);
+// justify - items: center;
+// align - items: center;
 export const StyledPieChart = styled(PieChart)`
   display: inline-block;
   flex-direction: ${props => props.direction};
@@ -88,3 +88,4 @@ export const LandingPic = styled.img`
   border-radius: 100%;
 `;
 
+// grid-template-columns: 70% 30%;
