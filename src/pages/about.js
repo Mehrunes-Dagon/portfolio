@@ -1,7 +1,5 @@
 import React from 'react';
 
-import SkillsPieChart from '../components/pieChart.js';
-
 import {
   BodyContainer,
   Page,
@@ -9,27 +7,26 @@ import {
   Title,
   Paragraph,
   LandingPic,
+  StyledPieChart,
 } from '../styles';
 
 const AboutPage = () => (
   <BodyContainer>
     <Page>
-      <Box column='1/3'>
-        <Title>About Me</Title>
-        <Paragraph>I'm a full stack software engineer from LA, gone PDX. From layouts to sever endpoints, I love building and learning new things.</Paragraph>
-      </Box>
-      <Box column='3/6'>
-        <LandingPic src='../images/me2.jpg' />
-      </Box>
-      <Box column='1/2'>
-        <Title>Frontend</Title>
-      </Box>
-      <Box column='1/2'>
-        <SkillsPieChart />
-      </Box>
-      <Box column='1/2'>
-        <Title>Backend</Title>
-      </Box>
+      <Title column='1/4'>
+        About Me
+      </Title>
+      <Paragraph column='1/4'>
+        I'm a full stack software engineer from LA, gone PDX. From layouts to sever endpoints, I love building and learning new things.
+      </Paragraph>
+      <LandingPic column='4/7' row='1/2' src='../images/me2.jpg' />
+      <Title column='1/3'>
+        Frontend
+      </Title>
+      <StyledPieChart column='3/5' />
+      <Title column='5/7'>
+        Backend
+      </Title>
     </Page>
   </BodyContainer >
 );

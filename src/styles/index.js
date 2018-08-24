@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Link from 'gatsby-link';
 
-import PieChart from 'react-simple-pie-chart';
+import SkillsPieChart from '../components/pieChart.js';
 
 const textFont = "'Lora' | serif";
 const titleFont = "'Titillium Web' | sans-serif";
@@ -23,21 +23,20 @@ export const ChildContainer = styled.div`
   align-items: center;
 `;
 export const Title = styled.div`
+  display: grid;
+  grid-column: ${props => props.column};
+  grid-row: ${props => props.row};
   font-family: ${titleFont};
   color: ${fontColor};
   font-size: 3em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 export const Paragraph = styled.div`
+  display: grid;
+  grid-column: ${props => props.column};
+  grid-row: ${props => props.row};
   font-family: ${textFont};
   color: ${fontColor};
   font-size: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   padding-top: 1em;
 `;
 
 
@@ -54,7 +53,9 @@ export const ExternalLink = styled.a.attrs({
 // LANDING 
 export const Page = styled.div`
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: top;
   max-width: 980px;
   min-height: 0;
   background: #242A41;
@@ -72,20 +73,20 @@ export const Box = styled.div`
 // grid - auto - rows: minmax(100px, auto);
 // justify - items: center;
 // align - items: center;
-export const StyledPieChart = styled(PieChart)`
-  display: inline-block;
-  flex-direction: ${props => props.direction};
-  justify-content: ${props => props.justify};
-  width: 10px;
-  min-width: 0;
-  height: 600px;
-  padding: 2em;
+export const StyledPieChart = styled(SkillsPieChart)`
+  display: grid;
+  grid-column: ${props => props.column};
+  grid-row: ${props => props.row};
+  width: 100%;
+  height: 100%;
 `;
 export const LandingPic = styled.img`
-  width: 300px;
+  display: grid;
+  grid-column: ${props => props.column};
+  grid-row: ${props => props.row};
+  width: 2fr;
   height: 300px;
   padding:3em;
   border-radius: 100%;
 `;
-
 // grid-template-columns: 70% 30%;
