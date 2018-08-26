@@ -5,6 +5,8 @@ import {
   BodyContainer,
 } from '../styles';
 
+
+
 const BlogPage = ({ data }) => (
   <BodyContainer>
     <h1>Latest Posts</h1>

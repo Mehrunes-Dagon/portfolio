@@ -1,13 +1,19 @@
 import React from 'react';
 
+import Project from '../templates/project.js';
 import {
   BodyContainer,
+  Page,
 } from '../styles';
 
 const PortfolioPage = () => (
   <BodyContainer>
-    <h1>This is my portfolio</h1>
-    <p>Here's some stuff i built.</p>
+    <Page>
+      <Project />
+      <Project />
+      <Project />
+      <Project />
+    </Page>
   </BodyContainer>
 );
 

@@ -23,7 +23,7 @@ const AboutPage = () => (
       <Title column='1/3'>
         Frontend
       </Title>
-      <StyledPieChart column='3/5' />
+      <StyledPieChart column='3/5' height='400px' />
       <Title column='5/7'>
         Backend
       </Title>

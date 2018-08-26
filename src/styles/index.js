@@ -90,3 +90,5 @@ export const LandingPic = styled.img`
   border-radius: 100%;
 `;
 // grid-template-columns: 70% 30%;
+
+// PORTFOLIO

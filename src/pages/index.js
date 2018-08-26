@@ -18,7 +18,7 @@ const IndexPage = () => (
           William Winberg
         </Title>
         <Paragraph>
-          Hello. I'm William, a full-stack software developer living in the Portland area. I like to make cool things.
+          Hello. I'm William, a full-stack software developer living in the Portland area. I like to make cool things. I have a near compulsive desire to explore the unknown.
         </Paragraph>
       </Box>
       <LandingPic src='../images/me.jpg' />
