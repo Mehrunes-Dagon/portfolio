@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Link from 'gatsby-link';
 
-import SkillsPieChart from '../components/pieChart.js';
+import PieChart from 'react-minimal-pie-chart';
 
 const textFont = "'Lora' | serif";
 const titleFont = "'Titillium Web' | sans-serif";
@@ -55,6 +55,7 @@ export const ExternalLink = styled.a.attrs({
 export const Page = styled.div`
   display: grid;
   grid-template-columns: ${props => props.col};
+  grid-template-rows: ${props => props.row};
   justify-items: center;
   align-items: top;
   max-width: 980px;
@@ -80,12 +81,10 @@ export const Box = styled.div`
 // grid - auto - rows: minmax(100px, auto);
 // justify - items: center;
 // align - items: center;
-export const StyledPieChart = styled(SkillsPieChart)`
+export const StyledPieChart = styled(PieChart)`
   display: grid;
   grid-column: ${props => props.column};
   grid-row: ${props => props.row};
-  width: 100%;
-  height: 100%;
 `;
 export const LandingPic = styled.img`
   display: grid;
