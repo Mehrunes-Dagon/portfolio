@@ -2,37 +2,45 @@ import React from "react";
 import styled from 'styled-components';
 
 const Demo = styled.div`
-
+  display: grid;
+  grid-column: ${props => props.column};
+  grid-row: ${props => props.row};
 `;
 
 import {
   BodyContainer,
   Page,
   Box,
+  ExternalLink,
+  Icon,
+  Title,
   Paragraph,
 } from '../styles';
 
 const Project = (props) => (
   <BodyContainer>
-    <Page>
-      <ul>
-        <li>Rcruit</li>
-        <li>rcruit.com</li>
-        <li>GitHub</li>
-      </ul>
-      <Paragraph>
-        Rcruit
-      </Paragraph>
-      <Box>
-        <ul>
-          <li>Built with</li>
-          <li>React</li>
-          <li>Express</li>
-          <li>Node</li>
-          <li>MongoDB</li>
-        </ul>
+    <Page col='1fr 1fr 1fr'>
+      <Box justify='center' padding='2em' gap='2em'>
+        <Title>
+          {props.title}
+        </Title>
+        <ExternalLink href={props.url}>
+          <Icon src='../images/site.png' />
+        </ExternalLink>
+        <ExternalLink href={props.github}>
+          <Icon src='../images/github.png' />
+        </ExternalLink>
       </Box>
-      <Demo>
+      <Box justify='center' padding='2em' gap='2em'>
+        <Paragraph>
+          {props.summary}
+        </Paragraph>
+      </Box>
+      <Box justify='center' padding='2em' gap='2em'>
+        <Title>Built with:</Title>
+        <Title small>{props.tech}</Title>
+      </Box>
+      <Demo column='1/4'>
         <iframe width="420" height="315"
           src="https://www.youtube.com/embed/tgbNymZ7vqY">
         </iframe>

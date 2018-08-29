@@ -12,7 +12,7 @@ export const BodyContainer = styled.div`
   display: grid;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 80vh;
   background: rgb(42, 48, 72);
 `;
 export const ChildContainer = styled.div`
@@ -28,7 +28,8 @@ export const Title = styled.div`
   grid-row: ${props => props.row};
   font-family: ${titleFont};
   color: ${fontColor};
-  font-size: 3em;
+  font-size: ${props => (props.small ? '2em' : '3em')};
+
 `;
 export const Paragraph = styled.div`
   display: grid;
@@ -53,18 +54,24 @@ export const ExternalLink = styled.a.attrs({
 // LANDING 
 export const Page = styled.div`
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: ${props => props.col};
   justify-items: center;
   align-items: top;
   max-width: 980px;
   min-height: 0;
+  max-height: 80vh;
   background: #242A41;
   overflow: auto;
+  
 `;
 export const Box = styled.div`
   display: grid;
   grid-column: ${props => props.column};
   grid-row: ${props => props.row};
+  grid-gap: ${props => props.gap};
+  align-items: ${props => props.align};
+  justify-items: ${props => props.justify};
+  padding: ${props => props.padding};
   width: 100%;
 `;
 // grid - column - gap: 1em;
@@ -92,3 +99,8 @@ export const LandingPic = styled.img`
 // grid-template-columns: 70% 30%;
 
 // PORTFOLIO
+export const Icon = styled.img`
+  margin: 0 .5em;
+  height: 50px;
+  width: 50px;
+`;

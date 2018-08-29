@@ -12,7 +12,7 @@ import {
 
 const AboutPage = () => (
   <BodyContainer>
-    <Page>
+    <Page col='repeat(6, 1fr)'>
       <Title column='1/4'>
         About Me
       </Title>
