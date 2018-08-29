@@ -31,18 +31,21 @@ const Project = (props) => (
           <Icon src='../images/github.png' />
         </ExternalLink>
       </Box>
-      <Box justify='center' padding='2em' gap='2em'>
+      <Box justify='center' align='center' padding='2em' gap='2em'>
         <Paragraph>
           {props.summary}
         </Paragraph>
       </Box>
-      <Box justify='center' padding='2em' gap='2em'>
+      <Box justify='center' padding='2em' gap='1em'>
         <Title>Built with:</Title>
-        <Title small>{props.tech}</Title>
+        <Title small>{props.db}</Title>
+        <Title small>{props.other}</Title>
+        <Title small>{props.front}</Title>
+        <Title small>{props.back}</Title>
       </Box>
       <Demo column='1/4'>
-        <iframe width="420" height="315"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        <iframe width="550" height="415"
+          src={props.video}>
         </iframe>
       </Demo>
     </Page>
