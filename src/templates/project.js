@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Demo = styled.div`
   display: grid;
-  grid-column: ${props => props.column};
+  grid-column: ${props => props.col};
   grid-row: ${props => props.row};
 `;
 
@@ -21,7 +21,7 @@ const Project = (props) => (
   <BodyContainer>
     <Page col='1fr 1fr 1fr'>
       <Box justify='center' padding='2em' gap='2em'>
-        <Title>
+        <Title big>
           {props.title}
         </Title>
         <ExternalLink href={props.url}>
@@ -43,7 +43,7 @@ const Project = (props) => (
         <Title small>{props.front}</Title>
         <Title small>{props.back}</Title>
       </Box>
-      <Demo column='1/4'>
+      <Demo col='1/4'>
         <iframe width="550" height="415"
           src={props.video}>
         </iframe>
