@@ -48,22 +48,27 @@ const Contact = (props) => (
     <InfoBoxes>
       <InfoBox>
         <Icon src='../images/mail.png' />
-        <Text><ExternalLink href="#" color='white'>wtpwinberg@gmail.com</ExternalLink></Text>
+        <Text>
+          <ExternalLink
+            href='mailto:wtpwinberg@gmail.com'
+            alt='Email me'
+            target='_top'
+            color='white'
+          >
+            wtpwinberg@gmail.com
+          </ExternalLink>
+        </Text>
       </InfoBox>
-
       <InfoBox>
         <Icon src='../images/phone.png' />
         <Text>(626) 824-4181</Text>
       </InfoBox>
-
-
       <InfoBox>
         <Icon src='../images/location.png' />
         <Text>Vancouver, Washington</Text>
       </InfoBox>
-
     </InfoBoxes>
-  </ContactContainer >
+  </ContactContainer>
 );
 
 export default Contact;

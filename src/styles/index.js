@@ -85,6 +85,8 @@ export const StyledPieChart = styled(PieChart)`
   display: grid;
   grid-column: ${props => props.column};
   grid-row: ${props => props.row};
+  width: 400px;
+  height: 100%;
 `;
 export const LandingPic = styled.img`
   display: grid;
@@ -92,7 +94,6 @@ export const LandingPic = styled.img`
   grid-row: ${props => props.row};
   width: 2fr;
   height: 300px;
-  padding:3em;
   border-radius: 100%;
 `;
 // grid-template-columns: 70% 30%;
