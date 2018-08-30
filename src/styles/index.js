@@ -11,6 +11,7 @@ const fontColor = 'white';
 export const BodyContainer = styled.div`
   display: grid;
   justify-content: center;
+  align-content: ${props => (props.center ? 'center' : '')};
   height: 80vh;
   background: rgb(42, 48, 72);
 `;

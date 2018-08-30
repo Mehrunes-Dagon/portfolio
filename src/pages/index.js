@@ -17,7 +17,7 @@ const IndexPage = () => (
         William Winberg
       </Title>
       <Paragraph col='2/5' row='3' >
-        Hello. I'm William, a full-stack software developer living in the Portland area. I like to make cool things. I have a near compulsive desire to explore the unknown.
+        &emsp;Hello. I'm William, a full-stack software developer living in the Portland area. I have a background that ranges from acting and film to building RC model airplanes and working on cars. Needless to say, I like to make cool things. From the Stanislavski Method or repairing a blown head gasket to server logs, error messages and RESTful APIs, I have a near compulsive desire to explore the unknown and an affinity building powerful and amazing things that have a positive and lasting impact on this ever-changing world.
       </Paragraph>
       <LandingPic col='6/8' row='2/6' src='../images/me.jpg' />
     </Page>

@@ -9,7 +9,7 @@ import {
 } from '../styles';
 
 const ContactPage = () => (
-  <BodyContainer>
+  <BodyContainer center>
     <Contact />
   </BodyContainer>
 );
