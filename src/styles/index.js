@@ -82,6 +82,19 @@ export const Box = styled.div`
   padding: ${props => props.padding};
   width: 100%;
 `;
+export const List = styled.ul`
+  display: grid;
+  grid-column: ${props => props.col};
+  grid-row: ${props => props.row};
+  grid-gap: ${props => props.gap};
+  align-items: ${props => props.align};
+  justify-items: ${props => props.justify};
+  padding: ${props => props.padding};
+  font-family: ${titleFont};
+  color: ${fontColor};
+  line-height: 1.5em;
+  margin: 0;
+`;
 // grid - column - gap: 1em;
 // grid - row - gap: 1em;
 // grid - gap: 1em;
@@ -94,6 +107,7 @@ export const StyledPieChart = styled(PieChart)`
   grid-row: ${props => props.row};
   width: 400px;
   height: 100%;
+  transform: rotate(-90deg);
 `;
 export const LandingPic = styled.img`
   display: grid;

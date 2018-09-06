@@ -7,6 +7,7 @@ import {
   Title,
   Paragraph,
   LandingPic,
+  List,
   StyledPieChart,
 } from '../styles';
 
@@ -20,19 +21,37 @@ const AboutPage = () => (
         I'm a full stack software engineer from LA, gone PDX. From layouts to sever endpoints, I love building and learning new things.
       </Paragraph>
       <LandingPic col='4/7' row='2/4' src='../images/me2.jpg' />
-      <Title col='1/3' row='7/10'>
+      <Title col='1/3' row='7'>
         Frontend
       </Title>
+      <List col='1/3' row='8/10'>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>styled-components</li>
+        <li>bootstrap</li>
+        <li>SASS</li>
+        <li>GraphQL</li>
+      </List>
       <StyledPieChart col='3/5' row='7/11'
         data={[
-          { value: 10, color: '#E38627' },
+          { value: 12, key: 'yo', color: '#E38627' },
           { value: 15, color: '#C13C37' },
-          { value: 20, color: '#6A2135' },
         ]}
       />
-      <Title col='5/7' row='7/10'>
+      <Title col='5/7' row='7'>
         Backend
       </Title>
+      <List col='5/7' row='8/10'>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MongoDB</li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>C</li>
+      </List>
     </Page>
   </BodyContainer >
 );
