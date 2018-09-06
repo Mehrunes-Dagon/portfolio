@@ -41,6 +41,7 @@ export const Paragraph = styled.div`
   grid-column: ${props => props.col};
   grid-row: ${props => props.row};
   align-items: ${props => props.align};
+  padding: ${props => props.padding};
   justify-items: ${props => props.justify};
   font-family: ${textFont};
   color: ${fontColor};
@@ -63,6 +64,7 @@ export const Page = styled.div`
   display: grid;
   grid-template-columns: ${props => props.col};
   grid-template-rows: ${props => props.row};
+  padding: 4em;
   justify-items: center;
   align-items: top;
   max-width: 980px;
@@ -70,16 +72,16 @@ export const Page = styled.div`
   max-height: 80vh;
   background: #242A41;
   overflow: auto;
-  
 `;
 export const Box = styled.div`
   display: grid;
   grid-column: ${props => props.col};
   grid-row: ${props => props.row};
-  grid-gap: ${props => props.gap};
+  column-gap: ${props => props.gap};
   align-items: ${props => props.align};
   justify-items: ${props => props.justify};
   padding: ${props => props.padding};
+  margin-bottom: 4em;
   width: 100%;
 `;
 export const List = styled.ul`
