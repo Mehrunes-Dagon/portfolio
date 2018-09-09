@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Link from 'gatsby-link';
 
 import PieChart from 'react-minimal-pie-chart';
+import Slideshow from 'react-slidez';
 
 const textFont = "'Lora' | serif";
 const titleFont = "'Titillium Web' | sans-serif";
@@ -107,10 +108,18 @@ export const StyledPieChart = styled(PieChart)`
   display: grid;
   grid-column: ${props => props.col};
   grid-row: ${props => props.row};
-  width: 400px;
+  width: 100%;
   height: 100%;
   transform: rotate(-90deg);
 `;
+export const StyledSlideshow = styled(Slideshow)`
+  display: grid;
+  grid-column: ${props => props.col};
+  grid-row: ${props => props.row};
+  width: 500px;
+  height: 300px;
+`;
+
 export const LandingPic = styled.img`
   display: grid;
   grid-column: ${props => props.col};

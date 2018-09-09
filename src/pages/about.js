@@ -7,6 +7,7 @@ import {
   Title,
   Paragraph,
   LandingPic,
+  StyledSlideshow,
   List,
   StyledPieChart,
 } from '../styles';
@@ -23,11 +24,11 @@ const AboutPage = () => (
         </Paragraph>
         <LandingPic col='2' row='1/3' src='../images/me2.jpg' />
       </Box>
-      <Box margin='4em 0'>
-        <Title col='1/3' row='7'>
+      <Box margin='4em 0' justify='center'>
+        <Title col='1' row='1' justify='center'>
           Frontend
         </Title>
-        <List col='1/3' row='8/10'>
+        <List col='1' row='2'>
           <li>Javascript</li>
           <li>React</li>
           <li>Redux</li>
@@ -38,16 +39,16 @@ const AboutPage = () => (
           <li>SASS</li>
           <li>GraphQL</li>
         </List>
-        <StyledPieChart col='3/5' row='7/11'
+        <StyledPieChart col='2' row='1/3'
           data={[
-            { value: 12, key: 'yo', color: '#E38627' },
-            { value: 15, color: '#C13C37' },
+            { value: 12, color: '#00FFFF' },
+            { value: 15, color: '	#008B8B' },
           ]}
         />
-        <Title col='5/7' row='7'>
+        <Title col='3' row='1' justify='center'>
           Backend
         </Title>
-        <List col='5/7' row='8/10'>
+        <List col='3' row='2'>
           <li>Node</li>
           <li>Express</li>
           <li>MongoDB</li>
@@ -56,18 +57,31 @@ const AboutPage = () => (
           <li>C</li>
         </List>
       </Box>
-      <Box margin='4em 0'>
-        <Title col='1/5' row='11'>
+      <Box margin='4em 0' gap='4em'>
+        <Title col='1' row='1'>
           Other essential life skills:
         </Title>
-        <List col='1/3' row='13'>
+        <List col='1' row='2'>
           <li>Motorcycling</li>
-          <li>Paintball</li>
+          <li>Paintballing</li>
           <li>Cooking</li>
           <li>Camping</li>
           <li>Making movies</li>
           <li>Watching movies</li>
         </List>
+        <StyledSlideshow col='2' row='2'
+          showIndex
+          showArrows
+          autoplay
+          enableKeyboard
+          useDotIndex
+          slideInterval={2000}
+          defaultIndex={1}
+          slides={['../images/me2.jpg', '../images/me2.jpg']}
+          effect={'fade'}
+          height={'relative'}
+          width={'relative'}
+        />
       </Box>
     </Page>
   </BodyContainer >
