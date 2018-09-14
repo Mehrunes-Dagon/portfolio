@@ -3,6 +3,9 @@ import Link from 'gatsby-link';
 
 const textFont = "'Lora' | serif";
 const titleFont = "'Titillium Web' | sans-serif";
+
+const bgColor = '#B09398';
+const boxColor = '#805E73';
 const fontColor = 'white';
 
 // GLOBAL
@@ -94,13 +97,13 @@ export const ContactContainer = styled.div`
   justify-content: center;
   width: 100%;
   max-width: 980px;
-  background: #242A41;
+  background: ${boxColor};
 `;
 export const ContactForm = styled.form`
   display: flex;
   flex-direction: column;
   width: 50%;
-  border: 2px solid #2B3046;
+  border: 2px solid ${bgColor};
   padding: 2em;
 `;
 export const FormLabel = styled.label`
@@ -111,23 +114,23 @@ export const FormLabel = styled.label`
 export const FormInput = styled.input`
   padding: .5em;
   margin: 0 1em;
-  background: #2B3046;
-  border: 2px solid #2B3046;
+  background: ${bgColor};
+  border: 2px solid ${bgColor};
   color: ${fontColor};
 `;
 export const FormTextarea = styled.input`
   padding: .5em;
   margin: 0 1em;
-  background: #2B3046;
-  border: 2px solid #2B3046;
+  background: ${bgColor};
+  border: 2px solid ${bgColor};
   color: ${fontColor};
 `;
 export const FormButton = styled.input`
  margin: 1em;
  padding: .5em 1em;
  font-size: 1.5em;
- background: ${props => (props.clear ? '#2B3046' : 'white')};
- color: ${props => (props.clear ? 'white' : '#2B3046')};
+ background: ${props => (props.clear ? boxColor : 'white')};
+ color: ${props => (props.clear ? 'white' : boxColor)};
  border: 2px solid white;
 `;
 export const InfoBoxes = styled.div`
@@ -141,7 +144,7 @@ export const InfoBox = styled.div`
   width: 100%;
   height: 100%;
   padding: 2em;
-  border: 2px solid #2B3046;
+  border: 2px solid ${bgColor};
 `;
 export const Title = styled.div`
   font-size: 1.5em;

@@ -8,7 +8,7 @@ import {
   LandingPic,
   Title,
   Paragraph,
-} from '../styles';
+} from '../pageStyles';
 
 const IndexPage = () => (
   <BodyContainer row>
@@ -26,7 +26,7 @@ const IndexPage = () => (
         blown head gasket to server logs, error messages
          and RESTful APIs, I have a near compulsive
          desire to explore the unknown and an affinity for
-         building powerful and amazing things that have
+         building powerful and amazing things that may have
          a positive and lasting impact on this
          ever-changing world.
       </Paragraph>

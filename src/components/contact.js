@@ -14,8 +14,7 @@ import {
   Title,
   Text,
   Icon,
-} from './styles';
-import { ChildContainer } from '../styles';
+} from './componentStyles';
 
 const Contact = (props) => (
   <ContactContainer>

@@ -8,7 +8,7 @@ import {
   ExternalLink,
   NavIcons,
   Icon,
-} from './styles';
+} from './componentStyles';
 
 const Header = ({ siteTitle }) => (
   <NavContainer>

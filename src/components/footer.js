@@ -4,7 +4,7 @@ import {
   FooterContainer,
   FooterLinks,
   FooterLink,
-} from './styles';
+} from './componentStyles';
 
 const Footer = ({ siteTitle }) => (
   <FooterContainer>

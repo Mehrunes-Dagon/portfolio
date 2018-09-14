@@ -6,6 +6,9 @@ import Slideshow from 'react-slidez';
 
 const textFont = "'Lora' | serif";
 const titleFont = "'Titillium Web' | sans-serif";
+
+const bgColor = '#B09398';
+const boxColor = '#805E73';
 const fontColor = 'white';
 
 // PAGES
@@ -14,7 +17,7 @@ export const BodyContainer = styled.div`
   justify-content: center;
   align-content: ${props => (props.center ? 'center' : '')};
   height: 80vh;
-  background: rgb(42, 48, 72);
+  background: ${bgColor};
 `;
 export const ChildContainer = styled.div`
   display: flex;
@@ -71,7 +74,7 @@ export const Page = styled.div`
   max-width: 980px;
   min-height: 0;
   max-height: 80vh;
-  background: #242A41;
+  background: ${boxColor};
   overflow: auto;
 `;
 export const Box = styled.div`

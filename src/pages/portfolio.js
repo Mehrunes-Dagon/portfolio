@@ -4,7 +4,7 @@ import Project from '../templates/project.js';
 import {
   BodyContainer,
   Page,
-} from '../styles';
+} from '../pageStyles';
 
 const PortfolioPage = () => (
   <BodyContainer>

@@ -10,7 +10,7 @@ import {
   StyledSlideshow,
   List,
   StyledPieChart,
-} from '../styles';
+} from '../pageStyles';
 
 const AboutPage = () => (
   <BodyContainer>
@@ -52,8 +52,10 @@ const AboutPage = () => (
           <li>Node</li>
           <li>Express</li>
           <li>MongoDB</li>
+          <li>Mongoose</li>
           <li>Python</li>
           <li>Django</li>
+          <li>SQL</li>
           <li>C</li>
         </List>
       </Box>

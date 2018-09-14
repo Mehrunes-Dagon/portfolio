@@ -6,7 +6,7 @@ import {
   BodyContainer,
   Title,
   Paragraph,
-} from '../styles';
+} from '../pageStyles';
 
 const ContactPage = () => (
   <BodyContainer center>
